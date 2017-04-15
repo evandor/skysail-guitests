@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GebishOrgSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-15T08:51:11" hostname="Carstens-MBP.fritz.box" time="19.718">
-  <properties/>
-  <testcase name="can get to the current Book of Geb" classname="GebishOrgSpec" time="19.718"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 20794
-Only local connections are allowed.
-]]></system-err>
-</testsuite>
