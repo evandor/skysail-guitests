@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GebishOrgTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-15T08:48:00" hostname="Carstens-MBP.fritz.box" time="2.432">
+  <properties/>
+  <testcase name="canGetToTheCurrentBookOfGeb" classname="GebishOrgTest" time="2.432"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
