@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DefaultRootSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-04-15T15:50:37" hostname="Carstens-MBP.fritz.box" time="6.307">
+  <properties/>
+  <testcase name="can get the index page" classname="DefaultRootSpec" time="6.307">
+    <failure message="Assertion failed: &#10;&#10;title.startsWith(&quot;skysail&quot;)&#10;|     |&#10;&quot;&quot;    false&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
+
+title.startsWith(&quot;skysail&quot;)
+|     |
+&quot;&quot;    false
+
+	at DefaultPage._clinit__closure1(DefaultPage.groovy:5)
+	at DefaultPage._clinit__closure1(DefaultPage.groovy)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:245)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at DefaultRootSpec.can get the index page(DefaultRootSpec.groovy:33)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 10872
+Only local connections are allowed.
+]]></system-err>
+</testsuite>
