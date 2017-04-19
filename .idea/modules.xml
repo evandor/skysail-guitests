@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/skysail-guitests.iml" filepath="$PROJECT_DIR$/.idea/modules/skysail-guitests.iml" />
-      <module fileurl="file://$PROJECT_DIR$/skysail.app.notes.guitest/skysail.app.notes.guitest.iml" filepath="$PROJECT_DIR$/skysail.app.notes.guitest/skysail.app.notes.guitest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skysail.app.notes.guitest/skysail.app.notes.guitest.iml" filepath="$PROJECT_DIR$/.idea/modules/skysail.app.notes.guitest/skysail.app.notes.guitest.iml" />
     </modules>
   </component>
 </project>
