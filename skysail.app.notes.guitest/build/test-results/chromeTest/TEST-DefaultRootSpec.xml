@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DefaultRootSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-04-15T15:50:37" hostname="Carstens-MBP.fritz.box" time="6.307">
+<testsuite name="DefaultRootSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-04-19T05:24:14" hostname="carstensmac.fritz.box" time="5.194">
   <properties/>
-  <testcase name="can get the index page" classname="DefaultRootSpec" time="6.307">
-    <failure message="Assertion failed: &#10;&#10;title.startsWith(&quot;skysail&quot;)&#10;|     |&#10;&quot;&quot;    false&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
+  <testcase name="can get the index page" classname="DefaultRootSpec" time="5.194">
+    <failure message="Assertion failed: &#10;&#10;title.startsWith(&quot;skysail&quot;)&#10;|     |&#10;|     false&#10;localhost&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
 
 title.startsWith(&quot;skysail&quot;)
 |     |
-&quot;&quot;    false
+|     false
+localhost
 
 	at DefaultPage._clinit__closure1(DefaultPage.groovy:5)
 	at DefaultPage._clinit__closure1(DefaultPage.groovy)
@@ -14,13 +15,16 @@ title.startsWith(&quot;skysail&quot;)
 	at geb.Page.getAtVerificationResult(Page.groovy:223)
 	at geb.Page.verifyAt(Page.groovy:194)
 	at geb.Browser.doAt(Browser.groovy:457)
-	at geb.Browser.at(Browser.groovy:339)
+	at geb.Browser.at(Browser.groovy:356)
+	at geb.Browser.to(Browser.groovy:571)
+	at geb.Browser.to(Browser.groovy:548)
+	at geb.Browser.to(Browser.groovy:537)
 	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
-	at DefaultRootSpec.can get the index page(DefaultRootSpec.groovy:33)
+	at DefaultRootSpec.can get the index page(DefaultRootSpec.groovy:15)
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 10872
+  <system-err><![CDATA[Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 10467
 Only local connections are allowed.
 ]]></system-err>
 </testsuite>
