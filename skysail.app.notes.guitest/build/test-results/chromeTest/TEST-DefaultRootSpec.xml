@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DefaultRootSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-04-19T05:24:14" hostname="carstensmac.fritz.box" time="5.194">
+<testsuite name="DefaultRootSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-05-09T06:14:24" hostname="carstensmac.local" time="19.563">
   <properties/>
-  <testcase name="can get the index page" classname="DefaultRootSpec" time="5.194">
-    <failure message="Assertion failed: &#10;&#10;title.startsWith(&quot;skysail&quot;)&#10;|     |&#10;|     false&#10;localhost&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
-
-title.startsWith(&quot;skysail&quot;)
-|     |
-|     false
-localhost
-
-	at DefaultPage._clinit__closure1(DefaultPage.groovy:5)
-	at DefaultPage._clinit__closure1(DefaultPage.groovy)
-	at geb.Page.verifyThisPageAtOnly(Page.groovy:245)
-	at geb.Page.getAtVerificationResult(Page.groovy:223)
-	at geb.Page.verifyAt(Page.groovy:194)
-	at geb.Browser.doAt(Browser.groovy:457)
-	at geb.Browser.at(Browser.groovy:356)
-	at geb.Browser.to(Browser.groovy:571)
-	at geb.Browser.to(Browser.groovy:548)
-	at geb.Browser.to(Browser.groovy:537)
-	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
-	at DefaultRootSpec.can get the index page(DefaultRootSpec.groovy:15)
+  <testcase name="can get the index page" classname="DefaultRootSpec" time="19.563">
+    <failure message="geb.error.RequiredPageContentNotPresent: The required page content 'DefaultPage -&gt; loginLink: geb.navigator.EmptyNavigator' is not present" type="geb.error.RequiredPageContentNotPresent">geb.error.RequiredPageContentNotPresent: The required page content 'DefaultPage -&gt; loginLink: geb.navigator.EmptyNavigator' is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:60)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at geb.Browser.propertyMissing(Browser.groovy:216)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:60)
+	at DefaultRootSpec.can get the index page(DefaultRootSpec.groovy:19)
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 10467
+  <system-err><![CDATA[Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 14673
 Only local connections are allowed.
 ]]></system-err>
 </testsuite>

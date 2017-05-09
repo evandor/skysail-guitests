@@ -2,6 +2,8 @@ import geb.Page
 
 class DefaultPage extends Page {
 
+    static url = ""
+
     static at = { title.startsWith("skysail") }
 
     static content = {
